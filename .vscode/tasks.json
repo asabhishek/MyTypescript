@@ -1,0 +1,23 @@
+//1. Open VSC by typing "code ." from command line comsole window. It will open vs code and 
+//open that folder in VSC.
+//2. Create app.ts file same as it is in this folder.
+//3. Open command plat using "ctrl+shift+p" and type tasks it will list all task runner options for this demo
+//select run build tasks it will say configure task runnuer button click on that and choose typescript task runner.
+//thats creates this file.
+
+
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",//
+    "command": "tsc",// tells that this will run tsc command.
+    "isShellCommand": true,
+    // array of value will be passed to tsc command to be used in terminal window.
+    "args": ["--target", "ES5",
+            "--outDir", "js",//all compiled code will be planced to this folder.
+            "--sourceMap",//creates mapping between code in original typescript and complied javascript. very usefull for debugging when you run javascript and debug in typescript.
+            "--watch",// automatically complies the code when any changes done to typescript.
+            "app.ts"], // files to compile
+    "showOutput": "silent",
+    "problemMatcher": "$tsc"
+}

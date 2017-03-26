@@ -9,8 +9,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceRoot}/app.ts",
-            "outFiles": ["${workspaceRoot}/js/app.js"],
+            "program": "${workspaceRoot}/variables.ts",
+            "outFiles": ["${workspaceRoot}/js/variables.js"],
             "sourceMaps":true
             
         },

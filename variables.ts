@@ -8,10 +8,10 @@ function getAllBooks() {
     return books;
 }
 
-function logFirstAvailableBooks(books)
+function logFirstAvailableBooks(books): void
 {
-    let numberOfBooks = books.length;
- let firstBookAvailable =''
+    let numberOfBooks: number = books.length;
+ let firstBookAvailable: string =''
     for(let book of books){
        
         if(book.available){

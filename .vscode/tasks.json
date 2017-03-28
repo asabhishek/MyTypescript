@@ -17,7 +17,7 @@
             "--outDir", "js",//all compiled code will be planced to this folder.
             "--sourceMap",//creates mapping between code in original typescript and complied javascript. very usefull for debugging when you run javascript and debug in typescript.
             "--watch",// automatically complies the code when any changes done to typescript.
-            "variables.ts"], // files to compile
+            "variables.ts","enumsandarrays.ts","app.ts"], // files to compile
     "showOutput": "silent",
     "problemMatcher": "$tsc"
 }

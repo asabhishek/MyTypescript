@@ -9,8 +9,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceRoot}/variables.ts",
-            "outFiles": ["${workspaceRoot}/js/variables.js"],
+            "program": "${workspaceRoot}/enumsandarrays.ts",
+            "outFiles": ["${workspaceRoot}/js/enumsandarrays.js"],
             "sourceMaps":true
             
         },
